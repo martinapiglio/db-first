@@ -1,0 +1,17 @@
+ID - SMALLINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+brand - VARCHAR(50) - NOT_NULL
+model - VARCHAR(50) - NOT_NULL
+km - MEDIUMINT - NOT_NULL
+registration_date - DATE - NOT_NULL
+country - VARCHAR(50) - NULL
+fuel - VARCHAR(15) - NOT_NULL
+shift - VARCHAR(15) - NOT_NULL
+horsepower_num - SMALLINT - NOT_NULL
+doors_num - TINYINT - NOT_NULL
+air_conditioning - BOOLEAN - NULL
+radio - BOOLEAN - NULL
+seats_num - TINYINT - NOT_NULL
+color - VARCHAR(25) - NOT_NULL
+int_color - VARCHAR(25) - NULL
+license_plate - VARCHAR(25) - UNIQUE, NOT_NULL
+description - TEXT - NULL
